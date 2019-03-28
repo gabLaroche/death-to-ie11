@@ -1,0 +1,32 @@
+html, body, .countdown {
+    height: 100%;
+}
+
+body {
+    background: #f4f4f5;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+}
+.countdown {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+}
+
+@media (max-width: 1024px) {
+    .tagline, .timer {
+        font-size: 3rem;
+    }
+
+    footer ul, footer small {
+        font-size: 1.3rem;
+    }
+
+    footer p {
+        font-size: 3rem;
+    }
+}
