@@ -1,8 +1,17 @@
+:root {
+    --ie-blue: #01BCF2;
+}
+
 body {
     height: 95vh;
     background: #f4f4f5;
     font-family: monospace;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .countdown {
@@ -20,18 +29,38 @@ body {
 
 [data-icon="internet-explorer"] {
     width: 150px;
-    animation: pulse_5221 2s linear infinite;
+    margin-top: 15vh;
+    -webkit-animation: pulse_5221 10s linear infinite;
+    animation: pulse_5221 10s linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 }
 
 [data-icon="internet-explorer"] path {
-    fill: #01BCF2;
+    fill: var(--ie-blue);
+}
+
+a:link, a:active, a:visited {
+    color: var(--ie-blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ie-blue);
+    text-decoration: underline;
+}
+
+@-webkit-keyframes pulse_5221 {
+    0% { -webkit-transform: scale(1.1); transform: scale(1.1) }
+    50% { -webkit-transform: scale(0.8); transform: scale(0.8) }
+    100% { -webkit-transform: scale(1.1); transform: scale(1.1) }
 }
 
 @keyframes pulse_5221 {
-    0% { transform: scale(1.1) }
-    50% { transform: scale(0.8) }
-    100% { transform: scale(1.1) }
+    0% { -webkit-transform: scale(1.1); transform: scale(1.1) }
+    50% { -webkit-transform: scale(0.8); transform: scale(0.8) }
+    100% { -webkit-transform: scale(1.1); transform: scale(1.1) }
 }
 
 footer {
