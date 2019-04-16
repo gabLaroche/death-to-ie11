@@ -1,8 +1,5 @@
-html, body, .countdown {
-    height: 100%;
-}
-
 body {
+    height: 95vh;
     background: #f4f4f5;
     font-family: monospace;
     display: flex;
@@ -11,6 +8,30 @@ body {
 .countdown {
     font-size: 1.1rem;
     text-align: center;
+}
+
+.tagline {
+    font-size: 1.7vw;
+}
+
+.timer {
+    font-size: 2.5vw;
+}
+
+[data-icon="internet-explorer"] {
+    width: 150px;
+    animation: pulse_5221 2s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+[data-icon="internet-explorer"] path {
+    fill: #01BCF2;
+}
+
+@keyframes pulse_5221 {
+    0% { transform: scale(1.1) }
+    50% { transform: scale(0.8) }
+    100% { transform: scale(1.1) }
 }
 
 footer {

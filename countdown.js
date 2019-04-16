@@ -1,14 +1,4 @@
 function countdown(endDate) {
-	var isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
-	if (isIE11) {
-		// Special code for our special friend
-		var elTagline = document.getElementById('tagline');
-		var elTimer = document.getElementById('timer');
-
-		elTagline.innerText('Please stop using Internet Explorer 11 and start using a real browser');
-		elTimer.parentNode.removeChild(elTimer);
-		return;
-	}
 	let years, months, days, hours, minutes, seconds;
 	let yearsDesc, monthsDesc, daysDesc, hoursDesc, minutesDesc, secondsDesc;
 	let yearsNumber, monthsNumber, daysNumber, hoursNumber, minutesNumber, secondsNumber;
