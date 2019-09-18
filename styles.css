@@ -95,11 +95,25 @@ footer {
     font-size: 2rem;
 }
 
+.reasons {
+    margin: 2rem 0 0;
+}
+
 .reasons li,
 .reasons li a,
 .reasons p,
-.reasons h3 {
+.reasons h3,
+.reasons details {
     font-size: 1rem;
+}
+
+.reasons details {
+    width: 90vw;
+    margin: 1rem 0;
+}
+
+.reasons summary {
+    cursor: pointer;
 }
 
 footer a {
