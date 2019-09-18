@@ -56,13 +56,13 @@ body main {
 }
 
 a:link, a:active, a:visited {
-    color: var(--ie-blue);
+    color: #09789c;
     text-decoration: none;
+    transition: color linear 0.35s;
 }
 
 a:hover {
     color: var(--ie-blue);
-    text-decoration: underline;
 }
 
 @-webkit-keyframes pulse_5221 {
@@ -110,10 +110,20 @@ footer {
 .reasons details {
     width: 90vw;
     margin: 1rem 0;
+    background: #f9f9f9;
+}
+
+.reasons details[open] {
+    padding-bottom: 1rem;
 }
 
 .reasons summary {
+    padding: 1rem 0.5rem;
     cursor: pointer;
+}
+
+.reasons li {
+    margin: 1rem 0;
 }
 
 footer a {
