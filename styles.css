@@ -2,10 +2,21 @@
     --ie-blue: #01BCF2;
 }
 
+html, body {
+    margin:0;
+    height: 100%;
+    width:100%;
+}
+
 body {
-    height: 95vh;
     background: #f4f4f5;
     font-family: monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+body main {
+    padding:5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13,23 +24,26 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
+
 .countdown {
-    font-size: 1.1rem;
-    text-align: center;
-}
-
-.tagline {
-    font-size: 1.7vw;
-}
-
-.timer {
-    font-size: 2.5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 [data-icon="internet-explorer"] {
     width: 150px;
-    margin-top: 15vh;
+    margin-top: 5vh;
     -webkit-animation: pulse_5221 10s linear infinite;
     animation: pulse_5221 10s linear infinite;
     -webkit-transform-origin: 50% 50%;
@@ -64,19 +78,56 @@ a:hover {
 }
 
 footer {
-    margin-top: auto;
+    padding: 5px;
+    width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-@media (max-width: 1024px) {
-    .tagline, .timer {
-        font-size: 3rem;
-    }
+.tagline, .timer {
+    font-size: 2rem;
+}
 
-    footer ul, footer small {
-        font-size: 1.3rem;
-    }
+.reasons li,
+.reasons li a,
+.reasons p,
+.reasons h3 {
+    font-size: 1rem;
+}
 
-    footer p {
-        font-size: 3rem;
+footer a {
+    word-break: break-all;
+}
+
+footer a, footer small {
+    font-size: 1rem;
+}
+
+footer p {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+footer .sources {
+    width: 90%;
+}
+
+@media (min-width: 1024px) {
+    [data-icon="internet-explorer"] {
+        margin-top: 15vh;
+    }
+    .tagline {
+        font-size: 1.7vw;
+    }
+    
+    .timer {
+        font-size: 2.5vw;
     }
 }
