@@ -7,6 +7,10 @@
         {
             "url" : "https://dev.to/",
             "label": "Dev.to"
+        },
+        {
+            "url" : "https://github.com/",
+            "label": "GitHub"
         }
     ]
 }
