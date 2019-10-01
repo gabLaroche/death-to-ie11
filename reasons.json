@@ -13,6 +13,17 @@
             "url": "https://www.vieodesign.com/blog/why-we-abandoned-ie11",
             "label": "Why we Abandoned IE11 (and Why You Should Too)",
             "description": "by Ryan Ridings"
+        },
+        {
+            "url": "https://stackoverflow.com/questions/53631949/why-ie-11-display-blank-page-rendering-react-app",
+            "label": "Why IE 11 display blank page rendering react app",
+            "description": "by Treycos on Stackoverflow"
+        },
+        {
+            "url": "https://support.google.com/mail/forum/AAAAK7un8RU2Kf-LgmiV8Q/?hl=fi",
+            "label": "gmail does not work correctly on IE11",
+            "description": "by Viestin alkuperäinen lähettäjä on google support"
         }
+        
     ]
 }
