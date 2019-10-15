@@ -13,8 +13,13 @@
             "label": "GitHub"
         },
         {
+            "url" : "https://support.zendesk.com/hc/en-us/articles/360002084367-Removal-of-support-for-Internet-Explorer-11",
+            "label": "Zendesk"
+        },
+        {
             "url" : "https://protonmail.com",
             "label": "ProtonMail"
         }
+
     ]
 }
