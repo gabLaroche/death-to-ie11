@@ -11,6 +11,10 @@
         {
             "url" : "https://github.com/",
             "label": "GitHub"
+        },
+        {
+            "url" : "https://protonmail.com",
+            "label": "ProtonMail"
         }
     ]
 }
