@@ -19,7 +19,10 @@
         {
             "url" : "https://protonmail.com",
             "label": "ProtonMail"
+        },
+        {
+            "url" : "https://community.atlassian.com/t5/Feedback-Forum-articles/Retiring-IE11-support-for-Atlassian-cloud-server-and-data-center/ba-p/1185312",
+            "label": "Atlassian"
         }
-
     ]
 }
