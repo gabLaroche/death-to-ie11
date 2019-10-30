@@ -9,7 +9,7 @@
             "label": "Dev.to"
         },
         {
-            "url" : "https://github.com/",
+            "url" : "https://help.github.com/en/github/getting-started-with-github/supported-browsers",
             "label": "GitHub"
         },
         {
@@ -23,6 +23,38 @@
         {
             "url" : "https://community.atlassian.com/t5/Feedback-Forum-articles/Retiring-IE11-support-for-Atlassian-cloud-server-and-data-center/ba-p/1185312",
             "label": "Atlassian"
+        },
+        {
+            "url" : "https://support.google.com/youtube/answer/175292?hl=en",
+            "label": "YouTube"
+        },
+        {
+            "url" : "https://help.meetup.com/hc/en-us/articles/360002965711-What-browsers-does-Meetup-support-",
+            "label": "Meetup"
+        },
+        {
+            "url" : "https://slack.com/help/articles/115002037526",
+            "label": "Slack"
+        },
+        {
+            "url" : "https://help.trello.com/article/735-what-browsers-and-mobile-platforms-does-trello-support",
+            "label": "Trello"
+        },
+        {
+            "url" : "https://support.discordapp.com/hc/en-us/articles/213491697-What-are-the-OS-system-requirements-for-Discord-",
+            "label": "Discord"
+        },
+        {
+            "url" : "https://support.spotify.com/us/using_spotify/the_basics/webplayer/",
+            "label": "Spotify"
+        },
+        {
+            "url" : "https://support.wix.com/en/article/wix-compatibility-with-internet-explorer",
+            "label": "Wix Editor and ADI Builder"
+        },
+        {
+            "url" : "https://help.yahoo.com/kb/SLN4556.html?guccounter=1",
+            "label": "Yahoo"
         }
     ]
 }
