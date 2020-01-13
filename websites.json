@@ -1,10 +1,6 @@
 {
     "list" : [
         {
-            "url" : "https://gabriellaroche.dev/",
-            "label": "gabriellaroche.dev"
-        },
-        {
             "url" : "https://dev.to/",
             "label": "Dev.to"
         },
