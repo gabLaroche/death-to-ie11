@@ -1,4 +1,4 @@
-# death-to-ie11
+# Death to Internet Explorer 11
 
 this is a fun little app that counts down to the end of support of Internet Explorer 11 + a few more features like a list of articles/websites that tell you why you should stop supporting IE11 and a list of websites that already dropped support.
 
