@@ -9,6 +9,10 @@
             "label": "GitHub"
         },
         {
+            "url" : "https://meta.stackexchange.com/questions/56161/which-browsers-are-officially-supported-and-what-else-do-i-need",
+            "label": "Stack Overflow (and other Stack Exchange sites)"
+        },
+        {
             "url" : "https://support.zendesk.com/hc/en-us/articles/360002084367-Removal-of-support-for-Internet-Explorer-11",
             "label": "Zendesk"
         },
