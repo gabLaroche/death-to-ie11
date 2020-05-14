@@ -1,4 +1,4 @@
-function countdown(endDate) {
+export default function countdown(endDate) {
 	let years, months, days, hours, minutes, seconds;
 	let yearsDesc, monthsDesc, daysDesc, hoursDesc, minutesDesc, secondsDesc;
 	let yearsNumber, monthsNumber, daysNumber, hoursNumber, minutesNumber, secondsNumber;
@@ -68,15 +68,11 @@ function countdown(endDate) {
 		};
 
 		if (timeRemaining >= 0) {
-			tagline.innerHTML = 'Internet Explorer 11 will stop being supported by Microsoft in :';
+			tagline.innerHTML = 'Internet Explorer 11 will (hopefully) stop being supported by Microsoft in :';
 			calculateProperTime(timeRemaining);
 		} else {
-			tagline.innerHTML = 'Internet Explorer 11 is dead and it has been dead for :';
+			tagline.innerHTML = 'Internet Explorer 11 is dead and has been dead for :';
 			calculateProperTime(timeSince);
 		}
 	}
 };
-
-(function () {
-	countdown('10/14/2025 05:00:00 PM');
-}());

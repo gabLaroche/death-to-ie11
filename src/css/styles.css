@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
 :root {
     --ie-blue: #01BCF2;
 }
@@ -10,7 +11,7 @@ html, body {
 
 body {
     background: #f4f4f5;
-    font-family: monospace;
+    font-family: 'Fira Code', monospace;
     display: flex;
     flex-direction: column;
 }
@@ -27,6 +28,10 @@ body main {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+}
+.disclaimer {
+    font-size: 16px;
+    margin: 0 auto;
 }
 
 .countdown {
@@ -133,6 +138,10 @@ footer a, footer small {
     font-size: 1rem;
 }
 
+footer small {
+    margin: 0 auto;
+}
+
 footer p {
     font-size: 2rem;
     margin-bottom: 0;
@@ -143,13 +152,17 @@ footer .sources {
 }
 
 @media (min-width: 1024px) {
+    .disclaimer {
+        max-width: 80vw;
+    }
+
     [data-icon="internet-explorer"] {
         margin-top: 15vh;
     }
     .tagline {
         font-size: 1.7vw;
     }
-    
+
     .timer {
         font-size: 2.5vw;
     }

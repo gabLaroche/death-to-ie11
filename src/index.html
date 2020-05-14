@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="./styles.css" />
+	<link rel="stylesheet" href="/css/styles.css" />
 	<title>IE11 end of support countdown</title>
 	<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
 	<!-- https://usefathom.com/ref/FQZUZM -> Get $10 off your first invoice
@@ -32,6 +32,20 @@
 <body>
 <main>
 	<div class="countdown">
+		<div class="disclaimer">
+			<p>
+				It's important to note that this countdown is far from being official.
+				I got the data from <a href="https://support.microsoft.com/en-ca/lifecycle/search?alpha=Windows%2010">windows 10 end of support documentation</a>, there is no data for IE11 specifically.
+				IE11 might stopped being supported by microsoft sooner or later than this date.
+				The good news is that you don't have to wait for this countdown to reach 0 to stop supporting this archaic browser.
+				As tou can see in the <a href="#websites">Who stopped supporting IE11</a> section, there many companies and websites
+				that didn't wait.
+			</p>
+
+			<p>
+				If you want to add A reason or your website, <a href="https://github.com/gabLaroche/death-to-ie11/blob/master/CONTRIBUTING.md">this is how</a>.
+			</p>
+		</div>
 		<h1 class="tagline" id="tagline"></h1>
 		<p class="timer" id="timer">
 			<span id="years"></span> <span id="yearsText"></span>
@@ -47,13 +61,13 @@
 	</div>
 	<div class="reasons">
 		<div>
-			<details>
+			<details open>
 				<summary>Why you should stop supporting IE11</summary>
 				<ul id="reasons">
 					<!-- Genereated by reasonsAndWebsites.js -->
 				</ul>
 			</details>
-			<details>
+			<details open>
 				<summary>Who stopped supporting IE11</summary>
 				<ul id="websites">
 					<!-- Genereated by reasonsAndWebsites.js -->
@@ -70,10 +84,20 @@
 				<li><a href="https://support.microsoft.com/en-ca/lifecycle/search?alpha=Windows%2010">https://support.microsoft.com/en-ca/lifecycle/search?alpha=Windows%2010</a></li>
 			</ul>
 		</div>
-	<small>&copy; 2019 Gabriel Laroche. All Rights Reserved</small>
+	<small>&copy; 2020 <a href="https://gabriellaroche.dev">Gabriel Laroche</a>. All Rights Reserved</small>
 </footer>
-<script src="./detector.js" type="text/javascript"></script>
-<script src="./countdown.js" type="text/javascript"></script>
-<script src="./reasonsAndWebsites.js" type="text/javascript"></script>
+<script>
+	var ua = window.navigator.userAgent;
+	var msie = ua.indexOf("MSIE ");
+
+	if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))
+	{
+		document.querySelector('.tagline').innerHTML= "This Website does not support Internet Explorer"
+		document.getElementById('yearsText').innerHTML = "<a href='https://www.google.com/intl/en/chrome/'>Download Chrome</a>";
+		document.getElementById('monthsText').innerHTML = "<a href='https://www.mozilla.org/en-US/firefox/new/'>Download Firefox</a>";
+
+	}
+</script>
+<script src="index.js"></script>
 </body>
 </html>
