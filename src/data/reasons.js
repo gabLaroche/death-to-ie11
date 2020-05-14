@@ -1,4 +1,4 @@
-{
+export default {
     "list" : [
         {
             "url" : "https://canistop.net",
@@ -24,6 +24,6 @@
             "label": "gmail does not work correctly on IE11",
             "description": "by sapmaz on google support"
         }
-        
+
     ]
 }

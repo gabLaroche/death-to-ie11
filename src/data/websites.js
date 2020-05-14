@@ -1,4 +1,4 @@
-{
+export default {
     "list" : [
         {
             "url" : "https://dev.to/",

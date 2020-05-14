@@ -1,0 +1,28 @@
+{
+  "name": "death-to-ie11",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:gabLaroche/death-to-ie11.git",
+  "author": "Gabriel Laroche <gabriel.laroche@nurun.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
+}

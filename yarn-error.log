@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js init - y
+
+PATH: 
+  /Users/gablaroc/.cargo/bin:/usr/local/Cellar/maven@3.3/3.3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/gablaroc/go/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.8.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:136724:13)
+      at Interface.emit (events.js:203:13)
+      at Interface._ttyWrite (readline.js:880:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:203:13)
+      at emitKeys (internal/readline/utils.js:414:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1146:36)
+      at ReadStream.emit (events.js:203:13)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
