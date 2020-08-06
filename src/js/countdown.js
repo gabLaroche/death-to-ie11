@@ -68,7 +68,7 @@ export default function countdown(endDate) {
 		};
 
 		if (timeRemaining >= 0) {
-			tagline.innerHTML = 'Internet Explorer 11 will (hopefully) stop being supported by Microsoft in :';
+			tagline.innerHTML = 'Mainstream support for Internet Explorer 11 will be dropped in :';
 			calculateProperTime(timeRemaining);
 		} else {
 			tagline.innerHTML = 'Internet Explorer 11 is dead and has been dead for :';
