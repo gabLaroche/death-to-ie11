@@ -6,7 +6,8 @@ export default {
         },
         {
             "url" : "https://www.swyx.io/writing/ie11-eol/",
-            "label" : "IE11 Mainstream End Of Life in Oct 2020"
+            "label" : "IE11 Mainstream End Of Life in Oct 2020",
+            "description": "by Shawn Wang"
         },
         {
             "url" : "https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/The-perils-of-using-Internet-Explorer-as-your-default-browser/ba-p/331732",
