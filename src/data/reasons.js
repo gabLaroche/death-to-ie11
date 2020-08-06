@@ -5,6 +5,10 @@ export default {
             "label": "Can you stop supporting IE11 in your region?"
         },
         {
+            "url" : "https://www.swyx.io/writing/ie11-eol/"
+            "label" : "IE11 Mainstream End Of Life in Oct 2020"
+        }
+        {
             "url" : "https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/The-perils-of-using-Internet-Explorer-as-your-default-browser/ba-p/331732",
             "label": "The perils of using Internet Explorer as your default browser",
             "description": "by Chris Jackson, Principal PM in Experiences and Devices Group at Microsoft"
