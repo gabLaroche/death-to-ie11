@@ -55,6 +55,10 @@ export default {
         {
             "url" : "https://help.yahoo.com/kb/SLN4556.html?guccounter=1",
             "label": "Yahoo"
+        },
+        {
+            "url" : "https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin",
+            "label" : "LinkedIn"
         }
     ]
 }
