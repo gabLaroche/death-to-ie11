@@ -28,7 +28,11 @@ export default {
             "url": "https://support.google.com/mail/forum/AAAAK7un8RU2Kf-LgmiV8Q/",
             "label": "gmail does not work correctly on IE11",
             "description": "by sapmaz on google support"
+        },
+        {
+            "url": "https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/",
+            "label": "Bootstrap 5 will drop IE11 support",
+            "description": "by @getbootstrap dev team"
         }
-
     ]
 }
