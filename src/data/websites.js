@@ -59,6 +59,10 @@ export default {
         {
             "url" : "https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin",
             "label" : "LinkedIn"
-        }
+        },
+        {
+            "url": "https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/",
+            "label": "Bootstrap 5"
+        },
     ]
 }
