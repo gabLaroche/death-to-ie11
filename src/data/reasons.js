@@ -33,6 +33,11 @@ export default {
             "url": "https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/",
             "label": "Bootstrap 5 will drop IE11 support",
             "description": "by @getbootstrap dev team"
+        },
+        {
+            "url": "https://css-tricks.com/a-business-case-for-dropping-internet-explorer/",
+            "label": "A Business Case for Dropping Internet Explorer",
+            "description": "by @CSSTricks"
         }
     ]
 }
