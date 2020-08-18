@@ -1,4 +1,4 @@
-export default function countdown(endDate) {
+export default function countdown(endDate, timerId, preDeathTagline, postDeathTagline) {
 	let years, months, days, hours, minutes, seconds;
 	let yearsDesc, monthsDesc, daysDesc, hoursDesc, minutesDesc, secondsDesc;
 	let yearsNumber, monthsNumber, daysNumber, hoursNumber, minutesNumber, secondsNumber;
@@ -17,7 +17,8 @@ export default function countdown(endDate) {
 
 		let timeRemaining = parseInt((endDate - startDate) / 1000);
 		let timeSince = parseInt((startDate - endDate) / 1000);
-		const tagline = document.querySelector('.tagline');
+		const timerContainer = document.getElementById(timerId);
+		const tagline = timerContainer.querySelector('.tagline');
 
 		const calculateProperTime = time => {
 			// Logic that calculates the time
@@ -51,27 +52,27 @@ export default function countdown(endDate) {
 			secondsNumber = ("0" + seconds).slice(-2);
 
 			// Populates the time description
-			document.getElementById('yearsText').innerHTML = yearsDesc;
-			document.getElementById('monthsText').innerHTML = monthsDesc;
-			document.getElementById('daysText').innerHTML = daysDesc;
-			document.getElementById('hoursText').innerHTML = hoursDesc;
-			document.getElementById('minutesText').innerHTML = minutesDesc;
-			document.getElementById('secondsText').innerHTML = secondsDesc;
+			timerContainer.querySelector('.yearsText').innerHTML = yearsDesc;
+			timerContainer.querySelector('.monthsText').innerHTML = monthsDesc;
+			timerContainer.querySelector('.daysText').innerHTML = daysDesc;
+			timerContainer.querySelector('.hoursText').innerHTML = hoursDesc;
+			timerContainer.querySelector('.minutesText').innerHTML = minutesDesc;
+			timerContainer.querySelector('.secondsText').innerHTML = secondsDesc;
 
 			// Populates the time numbers
-			document.getElementById("years").innerHTML = yearsNumber;
-			document.getElementById("months").innerHTML = monthsNumber;
-			document.getElementById("days").innerHTML = daysNumber;
-			document.getElementById("hours").innerHTML = hoursNumber;
-			document.getElementById("minutes").innerHTML = minutesNumber;
-			document.getElementById("seconds").innerHTML = secondsNumber;
+			timerContainer.querySelector('.years').innerHTML = yearsNumber;
+			timerContainer.querySelector('.months').innerHTML = monthsNumber;
+			timerContainer.querySelector('.days').innerHTML = daysNumber;
+			timerContainer.querySelector('.hours').innerHTML = hoursNumber;
+			timerContainer.querySelector('.minutes').innerHTML = minutesNumber;
+			timerContainer.querySelector('.seconds').innerHTML = secondsNumber;
 		};
 
 		if (timeRemaining >= 0) {
-			tagline.innerHTML = 'Mainstream support for Internet Explorer 11 will be dropped in :';
+			tagline.innerHTML = preDeathTagline;
 			calculateProperTime(timeRemaining);
 		} else {
-			tagline.innerHTML = 'Internet Explorer 11 is dead and has been dead for :';
+			tagline.innerHTML = postDeathTagline;
 			calculateProperTime(timeSince);
 		}
 	}

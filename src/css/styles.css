@@ -48,7 +48,7 @@ body main {
 
 [data-icon="internet-explorer"] {
     width: 150px;
-    margin-top: 5vh;
+    margin: 5vh 0;
     -webkit-animation: pulse_5221 10s linear infinite;
     animation: pulse_5221 10s linear infinite;
     -webkit-transform-origin: 50% 50%;
@@ -157,7 +157,7 @@ footer .sources {
     }
 
     [data-icon="internet-explorer"] {
-        margin-top: 15vh;
+        margin: 10vh 0;
     }
     .tagline {
         font-size: 1.7vw;
