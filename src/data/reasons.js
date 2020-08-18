@@ -28,7 +28,11 @@ export default {
             "url": "https://support.google.com/mail/forum/AAAAK7un8RU2Kf-LgmiV8Q/",
             "label": "gmail does not work correctly on IE11",
             "description": "by sapmaz on google support"
+        },
+        {
+            "url": "https://css-tricks.com/a-business-case-for-dropping-internet-explorer/",
+            "label": "A Business Case for Dropping Internet Explorer",
+            "description": "by @CSSTricks"
         }
-
     ]
 }

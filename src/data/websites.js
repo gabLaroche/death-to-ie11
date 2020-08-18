@@ -59,6 +59,14 @@ export default {
         {
             "url" : "https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin",
             "label" : "LinkedIn"
-        }
+        },
+        {
+            "url": "https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/",
+            "label": "Bootstrap 5"
+        },
+        {
+            "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666",
+            "label": "Microsoft 365"
+        },
     ]
 }
