@@ -111,17 +111,17 @@ footer {
     font-size: 1rem;
 }
 
-.reasons details {
+details {
     width: 90vw;
     margin: 1rem 0;
     background: #f9f9f9;
 }
 
-.reasons details[open] {
+details[open] {
     padding-bottom: 1rem;
 }
 
-.reasons summary {
+summary {
     padding: 1rem 0.5rem;
     cursor: pointer;
 }
