@@ -68,5 +68,9 @@ export default {
             "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666",
             "label": "Microsoft 365"
         },
+        {
+            "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666",
+            "label": "Microsoft Teams"
+        }
     ]
 }
