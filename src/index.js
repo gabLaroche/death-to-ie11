@@ -2,7 +2,7 @@ import countdown from "./js/countdown";
 import populateReasonsAndWebsites from './js/reasonsAndWebsites';
 
 countdown(
-    '10/30/2020 05:00:00 PM',
+    '08/17/2021 05:00:00 PM',
     'mainstreamTimer',
     'Mainstream support for Internet Explorer 11 will be dropped in :',
     'Mainstream support for Internet Explorer 11 has ended for :');
