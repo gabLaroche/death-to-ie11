@@ -71,6 +71,10 @@ export default {
         {
             "url": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666",
             "label": "Microsoft Teams"
+        },
+        {
+            "url": "https://help.twitter.com/fr/using-twitter/twitter-supported-browsers"
+            "label": "twitter"
         }
     ]
 }
