@@ -73,7 +73,7 @@ export default {
             "label": "Microsoft Teams"
         },
         {
-            "url": "https://help.twitter.com/fr/using-twitter/twitter-supported-browsers"
+            "url": "https://help.twitter.com/fr/using-twitter/twitter-supported-browsers",
             "label": "twitter"
         }
     ]
