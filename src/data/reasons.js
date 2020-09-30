@@ -33,6 +33,11 @@ export default {
             "url": "https://css-tricks.com/a-business-case-for-dropping-internet-explorer/",
             "label": "A Business Case for Dropping Internet Explorer",
             "description": "by @CSSTricks"
+        },
+        {
+            "url": "https://www.knowage-suite.com/qa/4943/problems-with-ie11",
+            "label": "generating and displaying cockpits in Internet Explorer 11",
+            "description": "by vvk"
         }
     ]
 }

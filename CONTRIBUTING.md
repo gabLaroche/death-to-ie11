@@ -1,4 +1,10 @@
 # Contributing to Death to IE11
+All code contributions must follow these steps:
+1. Fork the project
+2. Create your Feature Branch (git checkout -b feature/YourFeature)
+3. Commit your Changes (git commit -m 'Add YourFeature')
+4. Push to the Branch (git push origin feature/YourFeature)
+5. Open a Pull Request
 
 ## Adding a New Reason or website
 1. Open [src/data/reasons.js](/src/data/reasons.js) or [src/data/websites.js](/src/data/websites.js)
