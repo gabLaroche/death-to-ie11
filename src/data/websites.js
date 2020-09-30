@@ -75,6 +75,11 @@ export default {
         {
             "url": "https://help.twitter.com/fr/using-twitter/twitter-supported-browsers",
             "label": "twitter"
+        },
+        
+        {
+            "url": "https://answers.microsoft.com/en-us/ie/forum/all/websites-telling-me-they-will-no-longer-support/5caf94d0-facd-43db-93d0-4745feec10b7",
+            "label": "Facebook"
         }
     ]
 }
