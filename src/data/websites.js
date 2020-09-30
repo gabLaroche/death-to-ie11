@@ -75,6 +75,10 @@ export default {
         {
             "url": "https://help.twitter.com/fr/using-twitter/twitter-supported-browsers",
             "label": "twitter"
+        },
+        {
+            "url": "https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client",
+            "label": "zoom"
         }
     ]
 }
