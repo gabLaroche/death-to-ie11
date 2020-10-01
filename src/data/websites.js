@@ -80,7 +80,7 @@ export default {
             "url": "https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client",
             "label": "zoom"
         },
-        
+
         {
             "url": "https://answers.microsoft.com/en-us/ie/forum/all/websites-telling-me-they-will-no-longer-support/5caf94d0-facd-43db-93d0-4745feec10b7",
             "label": "facebook"
@@ -92,6 +92,10 @@ export default {
         {
             "url": "https://help.salesforce.com/articleView?id=getstart_browsers_sfx.htm&type=5",
             "label": "salesforce",
+        },
+        {
+            "url": "https://blogs.intuit.com/blog/2020/06/27/alert-support-for-ie11-deprecating-on-july-31-2020-for-authorization-screens/",
+            "label": "Intuit",
         }
     ]
 }
