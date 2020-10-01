@@ -38,6 +38,11 @@ export default {
             "url": "https://www.knowage-suite.com/qa/4943/problems-with-ie11",
             "label": "generating and displaying cockpits in Internet Explorer 11",
             "description": "by vvk"
+        },
+        {
+            "url": "https://areknawo.com/why-you-should-have-ditched-ie-support-long-ago/",
+            "label": "Not able to support many popular Web-APIs",
+            "description": "by @ArekNawo"
         }
     ]
 }
