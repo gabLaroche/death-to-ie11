@@ -88,6 +88,11 @@ export default {
         {
             "url": "https://www.aha.io/support/roadmaps/announcements/2020-release-notes/june-4-2020-retiring-support-internet-explorer-11#:~:text=Aha!%20will%20be%20removing%20support,Edge%20or%20another%20supported%20browser.",
             "label": "aha support"
+        },
+        {
+            "url": "https://help.salesforce.com/articleView?id=getstart_browsers_sfx.htm&type=5",
+            "label": "salesforce",
         }
     ]
 }
+
