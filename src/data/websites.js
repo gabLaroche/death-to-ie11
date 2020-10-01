@@ -84,6 +84,10 @@ export default {
         {
             "url": "https://answers.microsoft.com/en-us/ie/forum/all/websites-telling-me-they-will-no-longer-support/5caf94d0-facd-43db-93d0-4745feec10b7",
             "label": "facebook"
+        },
+        {
+            "url": "https://www.aha.io/support/roadmaps/announcements/2020-release-notes/june-4-2020-retiring-support-internet-explorer-11#:~:text=Aha!%20will%20be%20removing%20support,Edge%20or%20another%20supported%20browser.",
+            "label": "aha support"
         }
     ]
 }
