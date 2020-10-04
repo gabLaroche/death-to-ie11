@@ -43,6 +43,11 @@ export default {
             "url": "https://areknawo.com/why-you-should-have-ditched-ie-support-long-ago/",
             "label": "Not able to support many popular Web-APIs",
             "description": "by @ArekNawo"
+        },
+        {
+            "url": "https://support.zendesk.com/hc/en-us/articles/360002084367-Removal-of-support-for-Internet-Explorer-11",
+            "label": "Internet Explorer no longer receives major updates adding the latest security and functionality that supports complex web apps",
+            "description": "by David Williams"
         }
     ]
 }
