@@ -96,6 +96,10 @@ export default {
         {
             "url": "https://blogs.intuit.com/blog/2020/06/27/alert-support-for-ie11-deprecating-on-july-31-2020-for-authorization-screens/",
             "label": "Intuit",
+        },
+        {
+            "url": "https://support.zendesk.com/hc/en-us/articles/360048439353/",
+            "label": "Zandesk",
         }
     ]
 }
