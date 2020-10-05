@@ -151,6 +151,15 @@ footer .sources {
     width: 90%;
 }
 
+@media (min-width: 768px) {
+    #websites {
+        display: grid;
+        padding: 0 40px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+}
+
 @media (min-width: 1024px) {
     .disclaimer {
         max-width: 80vw;
@@ -165,5 +174,10 @@ footer .sources {
 
     .timer {
         font-size: 2.5vw;
+    }
+
+    #websites {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
     }
 }
