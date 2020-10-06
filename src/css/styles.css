@@ -82,6 +82,7 @@ section.landing {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   padding: 4rem;
 }
 
 section.landing h1 {
@@ -114,7 +115,6 @@ section.countdown>div p {
 section.countdown .timer {
    text-transform: uppercase;
    font-size: 0.8rem;
-   min-width: 500px;
    display: flex;
    align-items: center;
    justify-content: space-around;
@@ -141,7 +141,7 @@ section.disclaimer {
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   padding: 2rem;
+   padding: 4rem;
    text-align: center;
 }
 
@@ -194,10 +194,50 @@ section.reasons .sources-list {
    list-style-type: none;
    text-align: center;
    line-height: 150%;
+   padding-inline-start: 0;
 }
 
 footer {
    padding: 4rem;
    background: #222;
    text-align: center;
+}
+
+@media (max-width: 768px) {
+   section.landing {
+      padding: 1.5rem;
+   }
+   [data-icon="internet-explorer"] {
+      width: 100px;
+   }
+   section.landing h1 {
+      font-size: 1.2rem;
+   }
+   section.countdown {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 1fr 1fr;
+   }
+   section.countdown .timer .group .value {
+      font-size: 2rem;
+      font-weight: 700;
+   }
+   section.countdown .timer .group .text {
+      font-size: 0.6rem;
+   }
+   section.countdown>div p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+   }
+   section.disclaimer {
+      padding: 1.5rem;
+      text-align: justify;
+   }
+   section.reasons {
+      padding: 1.5rem;
+   }
+   section.reasons .list#websites {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0.5rem;
+   }
 }
