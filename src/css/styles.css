@@ -96,38 +96,38 @@ section.landing .chevrons-down {
    left: 50%;
    width: 48px;
    height: 48px;
-   transform: translateX(-50%);
+   transform: translate(-50%, 0);
    -webkit-animation: up_down 2s linear infinite;
    animation: up_down 2s linear infinite;
 }
 
 @-webkit-keyframes up_down {
    0% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0)
+      -webkit-transform: translate(-50%, 0);
+      transform: translate(-50%, 0)
    }
    50% {
-      -webkit-transform: translateY(-20px);
-      transform: translateY(-20px)
+      -webkit-transform: translate(-50%, -20px);
+      transform: translate(-50%, -20px)
    }
    100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0)
+      -webkit-transform: translate(-50%, 0);
+      transform: translate(-50%, 0)
    }
 }
 
 @keyframes up_down {
    0% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0)
+      -webkit-transform: translate(-50%, 0);
+      transform: translate(-50%, 0)
    }
    50% {
-      -webkit-transform: translateY(-20px);
-      transform: translateY(-20px)
+      -webkit-transform: translate(-50%, -20px);
+      transform: translate(-50%, -20px)
    }
    100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0)
+      -webkit-transform: translate(-50%, 0);
+      transform: translate(-50%, 0)
    }
 }
 
