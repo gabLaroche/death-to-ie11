@@ -97,6 +97,38 @@ section.landing .chevrons-down {
    width: 48px;
    height: 48px;
    transform: translateX(-50%);
+   -webkit-animation: up_down 2s linear infinite;
+   animation: up_down 2s linear infinite;
+}
+
+@-webkit-keyframes up_down {
+   0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+   }
+   50% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px)
+   }
+   100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+   }
+}
+
+@keyframes up_down {
+   0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+   }
+   50% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px)
+   }
+   100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0)
+   }
 }
 
 section.countdown {
