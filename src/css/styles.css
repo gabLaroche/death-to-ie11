@@ -99,6 +99,7 @@ section.landing .chevrons-down {
    transform: translate(-50%, 0);
    -webkit-animation: up_down 2s linear infinite;
    animation: up_down 2s linear infinite;
+   cursor: pointer;
 }
 
 @-webkit-keyframes up_down {
