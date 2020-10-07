@@ -43,6 +43,11 @@ export default {
             "url": "https://areknawo.com/why-you-should-have-ditched-ie-support-long-ago/",
             "label": "Not able to support many popular Web-APIs",
             "description": "by @ArekNawo"
+        },
+	{
+	    "url": "https://www.techrepublic.com/article/microsoft-this-is-when-ie11-and-legacy-edge-support-ends/"
+	    "label": "the new Microsoft Edge – have enabled better, more innovative online experiences."
+	    "description": "by @OwenRDHughes"	
         }
     ]
 }
