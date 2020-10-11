@@ -96,6 +96,10 @@ export default {
         {
             "url": "https://blogs.intuit.com/blog/2020/06/27/alert-support-for-ie11-deprecating-on-july-31-2020-for-authorization-screens/",
             "label": "Intuit",
+        },
+        {
+            "url": "https://www.exoplatform.com/blog/2019/11/27/reasons-why-exo-platform-stopped-supporting-ie11-internet-explorer-11/",
+            "label": "exoplatform",
         }
     ]
 }
