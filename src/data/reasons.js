@@ -48,6 +48,11 @@ export default {
             "url": "https://www.techrepublic.com/article/microsoft-this-is-when-ie11-and-legacy-edge-support-ends/",
             "label": " open web standards and newer browsers – like the new Microsoft Edge – have enabled better, more innovative online experiences.",
             "description": "by @OwenRDHughes"
+        },
+	{ 
+            "url": "https://protonmail.com/blog/internet-explorer-support/",
+            "label": "ProtonMail is dropping support for Internet Explorer 11",
+            "description": "by Ben Wolford at Proton"
         }
     
     ]
