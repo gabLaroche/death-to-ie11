@@ -56,8 +56,7 @@ export default {
         },
         {
             "url": "http://whyiesucks.blogspot.com/",
-            "label": "Why IE Sucks",
-            "description": "by http://whyiesucks.blogspot.com/"
+            "label": "Why IE Sucks"
         }
     
     ]
