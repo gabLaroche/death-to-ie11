@@ -43,6 +43,21 @@ export default {
             "url": "https://areknawo.com/why-you-should-have-ditched-ie-support-long-ago/",
             "label": "Not able to support many popular Web-APIs",
             "description": "by @ArekNawo"
+        },
+        {
+            "url": "https://www.techrepublic.com/article/microsoft-this-is-when-ie11-and-legacy-edge-support-ends/",
+            "label": " open web standards and newer browsers – like the new Microsoft Edge – have enabled better, more innovative online experiences.",
+            "description": "by @OwenRDHughes"
+        },
+        {
+            "url": "https://www.pcgamer.com/microsoft-will-soon-force-internet-explorer-users-to-open-edge-for-some-websites/",
+            "label": "Microsoft forces usage of Edge instead of IE11",
+            "description": "by Paul Lilly"
+        },
+        {
+            "url": "http://whyiesucks.blogspot.com/",
+            "label": "Why IE Sucks"
         }
+    
     ]
 }

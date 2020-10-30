@@ -2,19 +2,24 @@ import reasons from "../data/reasons";
 import websites from "../data/websites";
 
 function populateList(elemId, data) {
-    const dataList = data.list;
-    const listElem = document.getElementById(elemId);
+  const dataList = data.list;
+  const listElem = document.getElementById(elemId);
 
-    dataList.forEach(element => {
-        if (element.url && element.label) {
-            const listItemElem = document.createElement('li');
-            listItemElem.innerHTML = `<a href="${element.url}" rel="noreferrer" target="_blank">${element.label}</a> ${element.description ? element.description : ''}`;
-            listElem.appendChild(listItemElem);
-        }
-    });
+  dataList.forEach((element) => {
+    if (element.url && element.label) {
+      const listItemElem = document.createElement("a");
+      listItemElem.setAttribute("href", element.url);
+      listItemElem.setAttribute("rel", "noreferrer");
+      listItemElem.setAttribute("target", "_blank");
+      listItemElem.textContent = `${element.label} ${
+        element.description || ""
+      }`;
+      listElem.appendChild(listItemElem);
+    }
+  });
 }
 
 export default function populateReasonsAndWebsites() {
-    populateList('reasons', reasons);
-    populateList('websites', websites);
+  populateList("reasons", reasons);
+  populateList("websites", websites);
 }

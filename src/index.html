@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="monetization" content="$ilp.uphold.com/BLzR9xapkxgJ">
-	<link rel="stylesheet" href="/css/styles.css" />
-	<title>IE11 end of support countdown</title>
-	<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-	<!-- https://usefathom.com/ref/FQZUZM -> Get $10 off your first invoice
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="monetization" content="$ilp.uphold.com/BLzR9xapkxgJ">
+   <link rel="stylesheet" href="/css/styles.css" />
+   <link rel="stylesheet" href="/css/carbon.css" />
+   <link rel="icon" href="favicon.png" />
+   <title>IE11 end of support countdown</title>
+   <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+   <!-- https://usefathom.com/ref/FQZUZM -> Get $10 off your first invoice
 	    Why you should Switch to Fathom Analytics
 	    - You don't need to display those pesky cookie notices as they don't use cookies, nor does Fathom track invasive data.
 	    - Fathom offers simple, straight-forward website analytics.
@@ -15,97 +18,153 @@
 	    - Fathom has hundreds of customers and tracks tens of millions of page views per month.
 	    - Fathom can handle viral content without breaking a sweat, so your site won't slow down because of us.
         -->
-	<script src="https://stoat.death-to-ie11.com/script.js" site="XUSSUUYK" excluded-domains="localhost" defer></script>
-	<!-- / Fathom -->
+   <script src="https://stoat.death-to-ie11.com/script.js" site="XUSSUUYK" excluded-domains="localhost" defer></script>
+   <!-- / Fathom -->
 </head>
+
 <body>
-<main>
-	<div class="countdown">
-		<details>
-			<summary>Disclaimer</summary>
-			<div class="disclaimer">
-				<p>
-					It's important to note that this countdown is far from being official.
-					I got the data from <a href="https://support.microsoft.com/en-ca/lifecycle/search?alpha=Windows%2010">windows 10 end of support documentation</a>, there is no data for IE11 specifically.
-					IE11 might stopped being supported by microsoft sooner or later than this date.
-					The good news is that you don't have to wait for this countdown to reach 0 to stop supporting this archaic browser.
-					As you can see in the <a href="#websites">Who stopped supporting IE11</a> section, there are many companies and websites
-					that didn't wait.
-				</p>
+    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEBIPKQJ&placement=death-to-ie11com" id="_carbonads_js"></script>
+    <section class="landing">
+      <svg aria-hidden="true" data-prefix="fab" data-icon="internet-explorer"
+         class="svg-inline--fa fa-internet-explorer fa-w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+         <path fill="currentColor"
+            d="M483.049 159.706c10.855-24.575 21.424-60.438 21.424-87.871 0-72.722-79.641-98.371-209.673-38.577-107.632-7.181-211.221 73.67-237.098 186.457 30.852-34.862 78.271-82.298 121.977-101.158C125.404 166.85 79.128 228.002 43.992 291.725 23.246 329.651 0 390.94 0 436.747c0 98.575 92.854 86.5 180.251 42.006 31.423 15.43 66.559 15.573 101.695 15.573 97.124 0 184.249-54.294 216.814-146.022H377.927c-52.509 88.593-196.819 52.996-196.819-47.436H509.9c6.407-43.581-1.655-95.715-26.851-141.162zM64.559 346.877c17.711 51.15 53.703 95.871 100.266 123.304-88.741 48.94-173.267 29.096-100.266-123.304zm115.977-108.873c2-55.151 50.276-94.871 103.98-94.871 53.418 0 101.981 39.72 103.981 94.871H180.536zm184.536-187.6c21.425-10.287 48.563-22.003 72.558-22.003 31.422 0 54.274 21.717 54.274 53.722 0 20.003-7.427 49.007-14.569 67.867-26.28-42.292-65.986-81.584-112.263-99.586z" />
+      </svg>
+      <h1>Goodbye, Internet Explorer 11!</h1>
+      <svg id="indicator" class="chevrons-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+         stroke="#02bcf0" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+         <path d="M7 13l5 5 5-5M7 6l5 5 5-5" /></svg>
+       <section class="countdown">
+          <div class="mainstream" id="mainstreamTimer">
+             <p class="tagline">Mainstream support ends in</p>
+             <div class="timer">
+                <div class="group">
+                   <span class="yearsText text">Years</span>
+                   <span class="years value"></span>
+                </div>
+                <div class="group">
+                   <span class="monthsText text">Months</span>
+                   <span class="months value"></span>
+                </div>
+                <div class="group">
+                   <span class="daysText text">Days</span>
+                   <span class="days value"></span>
+                </div>
+                <div class="group">
+                   <span class="hoursText text">Hours</span>
+                   <span class="hours value"></span>
+                </div>
+                <div class="group">
+                   <span class="minutesText text">Minutes</span>
+                   <span class="minutes value"></span>
+                </div>
+                <div class="group">
+                   <span class="secondsText text">Seconds</span>
+                   <span class="seconds value"></span>
+                </div>
+             </div>
+          </div>
+          <div class="extended" id="extendedTimer">
+             <p class="tagline"> Extended support ends in </p>
+             <div class="timer">
+                <div class="group">
+                   <span class="yearsText text">Years</span>
+                   <span class="years value"></span>
+                </div>
+                <div class="group">
+                   <span class="monthsText text">Months</span>
+                   <span class="months value"></span>
+                </div>
+                <div class="group">
+                   <span class="daysText text">Days</span>
+                   <span class="days value"></span>
+                </div>
+                <div class="group">
+                   <span class="hoursText text">Hours</span>
+                   <span class="hours value"></span>
+                </div>
+                <div class="group">
+                   <span class="minutesText text">Minutes</span>
+                   <span class="minutes value"></span>
+                </div>
+                <div class="group">
+                   <span class="secondsText text">Seconds</span>
+                   <span class="seconds value"></span>
+                </div>
+             </div>
+          </div>
+       </section>
+   </section>
+   <section class="reasons sources">
+      <h2 class="section-heading">Why?</h2>
+      <details>
+         <summary>Why you should stop supporting IE11</summary>
+         <div id="reasons" class="list">
+            <!-- Genereated by reasonsAndWebsites.js -->
+         </div>
+      </details>
+      <h1 class="section-heading">Who?</h1>
+      <details>
+         <summary>Who stopped supporting IE11</summary>
+         <div id="websites" class="list">
+            <!-- Genereated by reasonsAndWebsites.js -->
+         </div>
+      </details>
+       <h2 class="section-heading">Disclaimer</h2>
+       <p>
+           It's important to note that this countdown is far from being official.
+           I got the data from <a href="https://support.microsoft.com/en-ca/lifecycle/search?alpha=Windows%2010">windows
+           10 end of support documentation</a>, there is no data for IE11 specifically.
+           IE11 might stopped being supported by microsoft sooner or later than this date.
+           The good news is that you don't have to wait for this countdown to reach 0 to stop supporting this archaic
+           browser.
+           As you can see in the <a href="#websites">Who stopped supporting IE11</a> section, there are many companies and
+           websites
+           that didn't wait.
+       </p>
+       <p>
+           If you want to add A reason or your website, <a
+               href="https://github.com/gabLaroche/death-to-ie11/blob/master/CONTRIBUTING.md">this is how</a>.
+       </p>
+       <div class="sources">
+           <h1 class="section-heading"> Sources </h1>
+           <ul class="sources-list">
+               <li><a href="https://www.microsoft.com/en-ca/windowsforbusiness/end-of-ie-support">Support for older
+                   versions
+                   of Internet Explorer ended</a></li>
+               <li><a href="https://support.microsoft.com/en-ca/lifecycle/search?alpha=Windows%2010">Windows 10 product
+                   lifecycle</a></li>
+               <li><a href="https://www.swyx.io/writing/ie11-eol/">IE11 Mainstream End Of Life in Oct 2020</a></li>
+           </ul>
+       </div>
+   </section>
+   <footer>
+      <p>Made with ❤️ and <a href="https://github.com/gabLaroche/death-to-ie11">code</a></p>
+      <p><a href="https://app.usefathom.com/share/xussuuyk/death-to-ie11.com">View Analytics</a></p>
+      <p>&copy; 2020 <a href="https://gabriellaroche.dev">Gabriel Laroche</a>. All Rights Reserved</p>
+   </footer>
 
-				<p>
-					If you want to add A reason or your website, <a href="https://github.com/gabLaroche/death-to-ie11/blob/master/CONTRIBUTING.md">this is how</a>.
-				</p>
-			</div>
-		</details>
-		<div id="mainstreamTimer">
-			<h1 class="tagline"></h1>
-			<p class="timer">
-				<span class="years"></span> <span class="yearsText"></span>
-				<span class="months"></span> <span class="monthsText"></span>
-				<span class="days"></span> <span class="daysText"></span>
-				<span class="hours"></span> <span class="hoursText"></span>
-				<span class="minutes"></span> <span class="minutesText"></span>
-				<span class="seconds"></span> <span class="secondsText"></span>
-			</p>
-		</div>
-		<svg aria-hidden="true" data-prefix="fab" data-icon="internet-explorer" class="svg-inline--fa fa-internet-explorer fa-w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-			<path fill="currentColor" d="M483.049 159.706c10.855-24.575 21.424-60.438 21.424-87.871 0-72.722-79.641-98.371-209.673-38.577-107.632-7.181-211.221 73.67-237.098 186.457 30.852-34.862 78.271-82.298 121.977-101.158C125.404 166.85 79.128 228.002 43.992 291.725 23.246 329.651 0 390.94 0 436.747c0 98.575 92.854 86.5 180.251 42.006 31.423 15.43 66.559 15.573 101.695 15.573 97.124 0 184.249-54.294 216.814-146.022H377.927c-52.509 88.593-196.819 52.996-196.819-47.436H509.9c6.407-43.581-1.655-95.715-26.851-141.162zM64.559 346.877c17.711 51.15 53.703 95.871 100.266 123.304-88.741 48.94-173.267 29.096-100.266-123.304zm115.977-108.873c2-55.151 50.276-94.871 103.98-94.871 53.418 0 101.981 39.72 103.981 94.871H180.536zm184.536-187.6c21.425-10.287 48.563-22.003 72.558-22.003 31.422 0 54.274 21.717 54.274 53.722 0 20.003-7.427 49.007-14.569 67.867-26.28-42.292-65.986-81.584-112.263-99.586z"/>
-		</svg>
-		<div id="extendedTimer">
-			<h1 class="tagline"></h1>
-			<p class="timer">
-				<span class="years"></span> <span class="yearsText"></span>
-				<span class="months"></span> <span class="monthsText"></span>
-				<span class="days"></span> <span class="daysText"></span>
-				<span class="hours"></span> <span class="hoursText"></span>
-				<span class="minutes"></span> <span class="minutesText"></span>
-				<span class="seconds"></span> <span class="secondsText"></span>
-			</p>
-		</div>
-	</div>
-	<div class="reasons">
-		<div>
-			<details>
-				<summary>Why you should stop supporting IE11</summary>
-				<ul id="reasons">
-					<!-- Genereated by reasonsAndWebsites.js -->
-				</ul>
-			</details>
-			<details>
-				<summary>Who stopped supporting IE11</summary>
-				<ul id="websites">
-					<!-- Genereated by reasonsAndWebsites.js -->
-				</ul>
-			</details>
-		</div>
-	</div>
-</main>
-<footer>
-	<div class="sources">
-			<p>Sources :</p>
-			<ul>
-				<li><a href="https://www.microsoft.com/en-ca/windowsforbusiness/end-of-ie-support">Support for older versions of Internet Explorer ended</a></li>
-				<li><a href="https://support.microsoft.com/en-ca/lifecycle/search?alpha=Windows%2010">Windows 10 product lifecycle</a></li>
-				<li><a href="https://www.swyx.io/writing/ie11-eol/">IE11 Mainstream End Of Life in Oct 2020</a></li>
-			</ul>
-		</div>
-	<small>Made with ❤️ and <a href="https://github.com/gabLaroche/death-to-ie11">code</a></small>
-	<small><a href="https://app.usefathom.com/share/xussuuyk/death-to-ie11.com">View Analytics</a></small>
-	<small>&copy; 2020 <a href="https://gabriellaroche.dev">Gabriel Laroche</a>. All Rights Reserved</small>
-</footer>
-<script>
-	var ua = window.navigator.userAgent;
-	var msie = ua.indexOf("MSIE ");
+   <script>
+      var ua = window.navigator.userAgent;
+      var msie = ua.indexOf("MSIE ");
 
-	if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))
-	{
-		document.querySelector('.tagline').innerHTML= "This Website does not support Internet Explorer"
-		document.getElementById('yearsText').innerHTML = "<a href='https://www.google.com/intl/en/chrome/'>Download Chrome</a>";
-		document.getElementById('monthsText').innerHTML = "<a href='https://www.mozilla.org/en-US/firefox/new/'>Download Firefox</a>";
+      if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+         document.querySelector('.tagline').innerHTML = "This Website does not support Internet Explorer"
+         document.getElementById('yearsText').innerHTML = "<a href='https://www.google.com/intl/en/chrome/'>Download Chrome</a>";
+         document.getElementById('monthsText').innerHTML = "<a href='https://www.mozilla.org/en-US/firefox/new/'>Download Firefox</a>";
 
-	}
-</script>
-<script src="index.js"></script>
+      }
+
+      const indicator = document.querySelector('#indicator')
+      indicator.addEventListener('click', () => {
+         window.scrollTo({
+            top: window.innerHeight,
+            left: 0,
+            behavior: 'smooth'
+         })
+      })
+   </script>
+   <script src="index.js"></script>
 </body>
+
 </html>
