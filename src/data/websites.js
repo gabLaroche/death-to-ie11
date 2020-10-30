@@ -10,7 +10,7 @@ export default {
         },
         {
             "url" : "https://meta.stackexchange.com/questions/56161/which-browsers-are-officially-supported-and-what-else-do-i-need",
-            "label": "Stack Overflow (and other Stack Exchange sites)"
+            "label": "Stack Exchange"
         },
         {
             "url" : "https://support.zendesk.com/hc/en-us/articles/360002084367-Removal-of-support-for-Internet-Explorer-11",
@@ -50,7 +50,7 @@ export default {
         },
         {
             "url" : "https://support.wix.com/en/article/wix-compatibility-with-internet-explorer",
-            "label": "Wix Editor and ADI Builder"
+            "label": "Wix"
         },
         {
             "url" : "https://help.yahoo.com/kb/SLN4556.html?guccounter=1",
