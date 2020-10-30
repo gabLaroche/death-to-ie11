@@ -90,7 +90,7 @@ section.landing {
     flex-direction: column;
     align-items: center;
     padding: 4rem;
-    min-height: 100vh;
+    min-height: calc(100vh - 120px);
 }
 
 section.landing h1 {
