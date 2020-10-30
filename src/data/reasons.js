@@ -53,6 +53,10 @@ export default {
             "url": "https://www.pcgamer.com/microsoft-will-soon-force-internet-explorer-users-to-open-edge-for-some-websites/",
             "label": "Microsoft forces usage of Edge instead of IE11",
             "description": "by Paul Lilly"
+        },
+        {
+            "url": "http://whyiesucks.blogspot.com/",
+            "label": "Why IE Sucks"
         }
     
     ]
