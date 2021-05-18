@@ -106,7 +106,7 @@ export default {
         },
         {
             "url": "https://news.vuejs.org/issues/192",
-            "label": "ViewJS"
+            "label": "ViewJS 3"
         },
         {
             "url": "https://github.com/angular/angular/issues/41840",
