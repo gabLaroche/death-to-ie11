@@ -9,8 +9,6 @@ function populateList(elemId, data) {
     if (element.url && element.label) {
       const listItemElem = document.createElement("a");
       listItemElem.setAttribute("href", element.url);
-      listItemElem.setAttribute("rel", "noreferrer");
-      listItemElem.setAttribute("target", "_blank");
       listItemElem.textContent = `${element.label} ${
         element.description || ""
       }`;

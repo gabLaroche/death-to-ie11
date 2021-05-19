@@ -100,6 +100,10 @@ export default {
         {
             "url": "https://help.dropbox.com/installs-integrations/desktop/system-requirements#web",
             "label": "Dropbox",
+        },
+        {
+            "url": "https://codepen.io/",
+            "label": "CodePen",
         }
     ]
 }
