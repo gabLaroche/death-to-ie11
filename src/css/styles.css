@@ -90,7 +90,7 @@ section.landing {
     flex-direction: column;
     align-items: center;
     padding: 4rem;
-    min-height: calc(100vh - 120px);
+    min-height: 100vh;
 }
 
 section.landing h1 {
@@ -128,7 +128,8 @@ section.landing .chevrons-down:focus {
 
 section.countdown {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(300px, 1050px);
+    justify-content: center;
     min-height: 0;
     width: 100%;
 }
@@ -220,6 +221,10 @@ section.reasons .sources {
     margin-top: 4rem;
 }
 
+.sources h2 {
+    text-align: center;
+}
+
 section.reasons .sources-list {
     list-style-type: none;
     text-align: center;
@@ -277,4 +282,8 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0.5rem;
     }
+}
+
+.sources__paragraph {
+    text-align: center;
 }
