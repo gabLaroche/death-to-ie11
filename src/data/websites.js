@@ -80,7 +80,6 @@ export default {
             "url": "https://support.zoom.us/hc/en-us/articles/214629443-Zoom-web-client",
             "label": "zoom"
         },
-
         {
             "url": "https://answers.microsoft.com/en-us/ie/forum/all/websites-telling-me-they-will-no-longer-support/5caf94d0-facd-43db-93d0-4745feec10b7",
             "label": "facebook"
@@ -104,6 +103,14 @@ export default {
         {
             "url": "https://codepen.io/",
             "label": "CodePen",
+        },
+        {
+            "url": "https://news.vuejs.org/issues/192",
+            "label": "ViewJS 3"
+        },
+        {
+            "url": "https://github.com/angular/angular/issues/41840",
+            "label": "Angular 13"
         }
     ]
 }
