@@ -2,7 +2,7 @@ import reasons from "../data/reasons";
 import websites from "../data/websites";
 
 function populateList(elemId, list) {
-  const dataList = list.sort((elemA, elemB) => (elemA.label.toLowerCase() > elemB.label.toLowerCase()));
+  const dataList = list;
   const listElem = document.getElementById(elemId);
 
   dataList.forEach((element) => {
@@ -19,7 +19,9 @@ function populateList(elemId, list) {
   });
 }
 
+const sortByLabel = (elemA, elemB) => (elemA.label.toLowerCase() > elemB.label.toLowerCase());
+
 export default function populateReasonsAndWebsites() {
   populateList("reasons", reasons.list);
-  populateList("websites", websites.list);
+  populateList("websites", websites.list.sort(sortByLabel));
 }
