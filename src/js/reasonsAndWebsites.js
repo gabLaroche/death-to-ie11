@@ -19,7 +19,7 @@ function populateList(elemId, list) {
   });
 }
 
-const sortByLabel = (elemA, elemB) => (elemA.label.toLowerCase() > elemB.label.toLowerCase());
+const sortByLabel = (elemA, elemB) => (elemA.label.toLowerCase() < elemB.label.toLowerCase() ? -1 : 1);
 
 export default function populateReasonsAndWebsites() {
   populateList("reasons", reasons.list);
