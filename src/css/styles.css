@@ -127,9 +127,6 @@ section.landing .chevrons-down:focus {
 }
 
 section.countdown {
-    display: grid;
-    grid-template-columns: minmax(300px, 1050px);
-    justify-content: center;
     min-height: 0;
     width: 100%;
 }
@@ -173,7 +170,7 @@ section.countdown .timer .group .text {
 section.countdown .timer .group .value {
     font-size: 4rem;
     font-weight: 700;
-    font-variant-numberic: tabular-nums;
+    font-variant-numeric: tabular-nums;
 }
 
 section.disclaimer {
@@ -255,12 +252,10 @@ footer {
         font-size: 1.2rem;
     }
     section.countdown {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr;
+        max-width: 30rem;
     }
     section.countdown > div {
-        padding: 1rem 0.5rem;
+        padding: 1rem 0;
     }
     section.countdown .mainstream {
         border-right: 0;
