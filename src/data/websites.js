@@ -111,6 +111,10 @@ export default {
         {
             "url": "https://github.com/angular/angular/issues/41840",
             "label": "Angular 13"
+        },
+        {
+            "url": "https://community.atlassian.com/t5/Feedback-Forum-articles/Retiring-IE11-support-for-Atlassian-cloud-server-and-data-center/ba-p/1185312",
+            "label": "Jira / Atlassian Cloud Products"
         }
     ]
 }
