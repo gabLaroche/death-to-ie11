@@ -1,6 +1,10 @@
 export default {
     "list" : [
         {
+            "url": "https://aws.amazon.com/blogs/aws/heads-up-aws-support-for-internet-explorer-11-is-ending/",
+            "label": "Amazon Web Services (AWS)"
+        },
+        {
             "url" : "https://dev.to/",
             "label": "Dev.to"
         },
