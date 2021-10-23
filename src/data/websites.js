@@ -111,6 +111,10 @@ export default {
         {
             "url": "https://github.com/angular/angular/issues/41840",
             "label": "Angular 13"
+        },
+        {
+            "url": "https://wordpress.org/news/2021/05/dropping-support-for-internet-explorer-11/",
+            "label": "Wordpress"
         }
     ]
 }
