@@ -90,7 +90,7 @@ export default {
         },
         {
             "url": "https://news.vuejs.org/issues/192",
-            "label": "ViewJS 3"
+            "label": "VueJS 3"
         },
         {
             "url" : "https://support.wix.com/en/article/wix-compatibility-with-internet-explorer",
