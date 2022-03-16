@@ -105,6 +105,10 @@ export default {
             "label": "Wordpress"
         },
         {
+            "url" : "https://central.xero.com/s/article/What-do-I-need-to-be-able-to-use-Xero",
+            "label": "Xero"
+        },
+        {
             "url" : "https://help.yahoo.com/kb/SLN4556.html?guccounter=1",
             "label": "Yahoo"
         },
