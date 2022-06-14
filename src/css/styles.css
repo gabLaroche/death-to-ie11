@@ -188,6 +188,7 @@ section.reasons details {
 }
 
 section.reasons summary {
+    text-align: center;
     outline: none;
     cursor: pointer;
     margin-bottom: 1rem;
