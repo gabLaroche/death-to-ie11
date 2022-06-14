@@ -188,6 +188,7 @@ section.reasons details {
 }
 
 section.reasons summary {
+    text-align: center;
     outline: none;
     cursor: pointer;
     margin-bottom: 1rem;
@@ -231,6 +232,7 @@ section.reasons .sources-list {
 }
 
 section.reasons p {
+    text-align: center;
     max-width: 800px;
     margin: 0 auto;
 }
