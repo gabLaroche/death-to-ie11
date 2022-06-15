@@ -105,7 +105,7 @@ export default {
         },
         {
             "url": "https://wordpress.org/news/2021/05/dropping-support-for-internet-explorer-11/",
-            "label": "Wordpress"
+            "label": "WordPress"
         },
         {
             "url": "https://help.yahoo.com/kb/SLN4556.html?guccounter=1",
