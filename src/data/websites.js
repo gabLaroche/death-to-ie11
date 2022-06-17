@@ -1,6 +1,5 @@
 export default {
-    "list" : [
-        {
+    "list": [{
             "url": "https://www.aha.io/support/roadmaps/announcements/2020-release-notes/june-4-2020-retiring-support-internet-explorer-11#:~:text=Aha!%20will%20be%20removing%20support,Edge%20or%20another%20supported%20browser.",
             "label": "Aha Support"
         },
@@ -13,10 +12,10 @@ export default {
             "label": "Angular 13"
         },
         {
-            "url" : "https://community.atlassian.com/t5/Feedback-Forum-articles/Retiring-IE11-support-for-Atlassian-cloud-server-and-data-center/ba-p/1185312",
+            "url": "https://community.atlassian.com/t5/Feedback-Forum-articles/Retiring-IE11-support-for-Atlassian-cloud-server-and-data-center/ba-p/1185312",
             "label": "Atlassian"
         },
-                {
+        {
             "url": "https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/",
             "label": "Bootstrap 5"
         },
@@ -25,11 +24,11 @@ export default {
             "label": "CodePen",
         },
         {
-            "url" : "https://dev.to/",
+            "url": "https://dev.to/",
             "label": "Dev.to"
         },
         {
-            "url" : "https://support.discordapp.com/hc/en-us/articles/213491697-What-are-the-OS-system-requirements-for-Discord-",
+            "url": "https://support.discordapp.com/hc/en-us/articles/213491697-What-are-the-OS-system-requirements-for-Discord-",
             "label": "Discord"
         },
         {
@@ -41,7 +40,7 @@ export default {
             "label": "Facebook"
         },
         {
-            "url" : "https://help.github.com/en/github/getting-started-with-github/supported-browsers",
+            "url": "https://help.github.com/en/github/getting-started-with-github/supported-browsers",
             "label": "GitHub"
         },
         {
@@ -49,11 +48,11 @@ export default {
             "label": "Intuit"
         },
         {
-            "url" : "https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin",
-            "label" : "LinkedIn"
+            "url": "https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin",
+            "label": "LinkedIn"
         },
         {
-            "url" : "https://help.meetup.com/hc/en-us/articles/360002965711-What-browsers-does-Meetup-support-",
+            "url": "https://help.meetup.com/hc/en-us/articles/360002965711-What-browsers-does-Meetup-support-",
             "label": "Meetup"
         },
         {
@@ -65,27 +64,31 @@ export default {
             "label": "Microsoft Teams"
         },
         {
-            "url" : "https://protonmail.com",
+            "url": "https://protonmail.com",
             "label": "ProtonMail"
+        },
+        {
+            "url": "https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html#dropping-support-for-internet-explorer",
+            "label": "ReactJS"
         },
         {
             "url": "https://help.salesforce.com/articleView?id=getstart_browsers_sfx.htm&type=5",
             "label": "Salesforce"
         },
         {
-            "url" : "https://slack.com/help/articles/115002037526",
+            "url": "https://slack.com/help/articles/115002037526",
             "label": "Slack"
         },
         {
-            "url" : "https://support.spotify.com/us/using_spotify/the_basics/webplayer/",
+            "url": "https://support.spotify.com/us/using_spotify/the_basics/webplayer/",
             "label": "Spotify"
         },
         {
-            "url" : "https://meta.stackexchange.com/questions/56161/which-browsers-are-officially-supported-and-what-else-do-i-need",
+            "url": "https://meta.stackexchange.com/questions/56161/which-browsers-are-officially-supported-and-what-else-do-i-need",
             "label": "Stack Exchange"
         },
         {
-            "url" : "https://help.trello.com/article/735-what-browsers-and-mobile-platforms-does-trello-support",
+            "url": "https://help.trello.com/article/735-what-browsers-and-mobile-platforms-does-trello-support",
             "label": "Trello"
         },
         {
@@ -97,12 +100,12 @@ export default {
             "label": "VueJS 3"
         },
         {
-            "url" : "https://support.wix.com/en/article/wix-compatibility-with-internet-explorer",
+            "url": "https://support.wix.com/en/article/wix-compatibility-with-internet-explorer",
             "label": "Wix"
         },
         {
-            "url" : "https://wordpress.org/news/2021/05/dropping-support-for-internet-explorer-11/",
-            "label": "Wordpress"
+            "url": "https://wordpress.org/news/2021/05/dropping-support-for-internet-explorer-11/",
+            "label": "WordPress"
         },
         {
             "url" : "https://central.xero.com/s/article/What-do-I-need-to-be-able-to-use-Xero",
@@ -113,11 +116,11 @@ export default {
             "label": "Yahoo"
         },
         {
-            "url" : "https://support.google.com/youtube/answer/175292?hl=en",
+            "url": "https://support.google.com/youtube/answer/175292?hl=en",
             "label": "YouTube"
         },
         {
-            "url" : "https://support.zendesk.com/hc/en-us/articles/360002084367-Removal-of-support-for-Internet-Explorer-11",
+            "url": "https://support.zendesk.com/hc/en-us/articles/360002084367-Removal-of-support-for-Internet-Explorer-11",
             "label": "Zendesk"
         },
         {
@@ -126,4 +129,3 @@ export default {
         }
     ]
 }
-
