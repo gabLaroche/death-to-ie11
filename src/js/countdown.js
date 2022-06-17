@@ -6,10 +6,7 @@ export default function countdown(
 ) {
   let years, months, days, hours, minutes, seconds;
   let yearsDesc, monthsDesc, daysDesc, hoursDesc, minutesDesc, secondsDesc;
-  let yearsNumber,
-    monthsNumber,
-    daysNumber,
-    hoursNumber,
+  let hoursNumber,
     minutesNumber,
     secondsNumber;
 
@@ -25,39 +22,36 @@ export default function countdown(
     let startDate = new Date();
     startDate = startDate.getTime();
 
-    let timeRemaining = parseInt((endDate - startDate) / 1000);
-    let timeSince = parseInt((startDate - endDate) / 1000);
+    let timeRemaining = parseInt((endDate - startDate) / 1000, 10);
+    let timeSince = parseInt((startDate - endDate) / 1000, 10);
     const timerContainer = document.getElementById(timerId);
     const tagline = timerContainer.querySelector(".tagline");
 
     const calculateProperTime = (time) => {
       // Logic that calculates the time
-      years = parseInt(time / 3.154e7);
+      years = Math.floor(time / 3.154e7);
       yearsDesc = years !== 1 ? "Years" : "Year";
-      yearsNumber = parseInt(years, 10);
       time = time % 3.154e7;
 
-      months = parseInt(time / 2.628e6);
+      months = Math.floor(time / 2.628e6);
       monthsDesc = months !== 1 ? "Months" : "Month";
-      monthsNumber = parseInt(months, 10);
       time = time % 2.628e6;
 
-      days = parseInt(time / 86400);
+      days = Math.floor(time / 86400);
       daysDesc = days !== 1 ? "Days" : "Day";
-      daysNumber = parseInt(days, 10);
       time = time % 86400;
 
-      hours = parseInt(time / 3600);
+      hours = Math.floor(time / 3600);
       hoursDesc = hours !== 1 ? "Hours" : "Hour";
       hoursNumber = ("0" + hours).slice(-2);
       time = time % 3600;
 
-      minutes = parseInt(time / 60);
+      minutes = Math.floor(time / 60);
       minutesDesc = minutes !== 1 ? "Minutes" : "Minute";
       minutesNumber = ("0" + minutes).slice(-2);
       time = time % 60;
 
-      seconds = parseInt(time);
+      seconds = Math.floor(time);
       secondsDesc = seconds !== 1 ? "Seconds" : "Second";
       secondsNumber = ("0" + seconds).slice(-2);
 
@@ -70,9 +64,9 @@ export default function countdown(
       timerContainer.querySelector(".secondsText").innerHTML = secondsDesc;
 
       // Populates the time numbers
-      timerContainer.querySelector(".years").innerHTML = yearsNumber;
-      timerContainer.querySelector(".months").innerHTML = monthsNumber;
-      timerContainer.querySelector(".days").innerHTML = daysNumber;
+      timerContainer.querySelector(".years").innerHTML = years;
+      timerContainer.querySelector(".months").innerHTML = months;
+      timerContainer.querySelector(".days").innerHTML = days;
       timerContainer.querySelector(".hours").innerHTML = hoursNumber;
       timerContainer.querySelector(".minutes").innerHTML = minutesNumber;
       timerContainer.querySelector(".seconds").innerHTML = secondsNumber;
@@ -85,5 +79,6 @@ export default function countdown(
       tagline.innerHTML = postDeathTagline;
       calculateProperTime(timeSince);
     }
+
   }
 }
