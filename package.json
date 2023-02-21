@@ -10,6 +10,7 @@
     "build": "parcel build src/index.html"
   },
   "dependencies": {
+    "@js-temporal/polyfill": "0.4.3",
     "parcel-bundler": "^1.12.4"
   },
   "devDependencies": {
